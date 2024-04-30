@@ -1,24 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Micro+5&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    background-color: #e1ff00;
-    background-color: #698277;
-
+    background-color: #ffffff;
 }
 
+.logo {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.so-far {
+    position: absolute;
+    top: -10px;
+    left: 300px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.contact {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.know-me {
+    position: absolute;
+    top: -10px;
+    right: 300px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+
 h1 {
-    font-family: serif;
     font-size: 400;
-    font-weight: lighter;
+    font-weight: bold;
     align-items: center;
     justify-content: center;
     display: flex;
     margin-left: 250px; 
+    margin-top: 400px;
 }
 
 h2 {
@@ -57,6 +88,11 @@ h4 {
     margin: 0 auto;
 }
 
-h {
-    color: blue;
+h1, h2, h3, h4, h5, h6 {
+    color: #0900ae;
 }
+
+.linha {
+    border-color: #0900ae;
+}
+
