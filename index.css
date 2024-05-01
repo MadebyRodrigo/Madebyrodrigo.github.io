@@ -18,29 +18,43 @@ body {
 
 .so-far {
     position: absolute;
-    top: -10px;
+    top: -25px;
     left: 300px;
-    font-size: 15px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .contact {
     position: absolute;
-    top: -10px;
+    top: -25px;
     right: 20px;
-    font-size: 15px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .know-me {
     position: absolute;
-    top: -10px;
+    top: -25px;
     right: 300px;
-    font-size: 15px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 400;
 }
 
+.projects {
+    position: absolute;
+    top: 950px;
+    left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
 
+.years {
+    position: absolute;
+    top: 950px;
+    right: 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
 
 h1 {
     font-size: 400;
