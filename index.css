@@ -9,7 +9,7 @@ body {
 }
 
 .logo {
-    width: 30px;
+    width: 25px;
     height: auto;
     position: absolute;
     top: 20px;
@@ -18,52 +18,52 @@ body {
 
 .so-far {
     position: absolute;
-    top: -25px;
+    top: -15px;
     left: 300px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
 }
 
 .contact {
     position: absolute;
-    top: -25px;
+    top: -15px;
     right: 20px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
 }
 
 .know-me {
     position: absolute;
-    top: -25px;
+    top: -15px;
     right: 300px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
 }
 
 .projects {
     position: absolute;
-    top: 950px;
+    top: 835px;
     left: 20px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
 }
 
 .years {
     position: absolute;
-    top: 950px;
-    right: 0px;
-    font-size: 20px;
+    top: 835px;
+    right: 20px;
+    font-size: 15px;
     font-weight: 400;
 }
 
-h1 {
-    font-size: 400;
+.oi {
+    font-size: 370;
     font-weight: bold;
     align-items: center;
     justify-content: center;
     display: flex;
     margin-left: 250px; 
-    margin-top: 400px;
+    margin-top: 370px;
 }
 
 h2 {
