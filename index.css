@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -18,15 +17,16 @@ body {
 
 .so-far {
     position: absolute;
-    top: -15px;
+    top: -10px;
     left: 300px;
     font-size: 15px;
     font-weight: 400;
 }
 
+
 .contact {
     position: absolute;
-    top: -15px;
+    top: -10px;
     right: 20px;
     font-size: 15px;
     font-weight: 400;
@@ -34,7 +34,7 @@ body {
 
 .know-me {
     position: absolute;
-    top: -15px;
+    top: -10px;
     right: 300px;
     font-size: 15px;
     font-weight: 400;
@@ -95,18 +95,19 @@ h4 {
     margin-right: 600px;
 }
 
-.foto-logo{
-    width: 900px;
-    height: auto;
-    margin-left: 250px; 
-    margin-top: 100px;
-}
 
-.rolling{
+.breathing{
     width: 600px;
     height: auto;
-    margin-left: 900px; 
-    margin-top: 300px;
+    margin-left: 350px; 
+    margin-top: 200px;
+}
+
+.Relogio{
+    width: 600px;
+    height: auto;
+    margin-left: 100px; 
+  
 }
 
 .so-many-tools{
