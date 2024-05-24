@@ -48,7 +48,7 @@ body {
     font-weight: 400;
 }
 
-.years {
+.instagram {
     position: absolute;
     top: 835px;
     right: 20px;
@@ -95,6 +95,12 @@ h4 {
     margin-right: 600px;
 }
 
+.CV{
+    width: 300px;
+    height: auto;
+    margin-left: 1250px; 
+
+}
 
 .breathing{
     width: 600px;
