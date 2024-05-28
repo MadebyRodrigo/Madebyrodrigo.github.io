@@ -7,18 +7,33 @@ body {
     background-color: #ffffff;
 }
 
+header{
+    padding: 0% 0%;
+}
+
+nav {
+    padding: 10px 3%;
+}
+
+ul {
+    padding: 50px 8%;
+}
+
+
+.topo-esquerda{
+    display: flex;
+    padding: 10px 70% 10 10;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
 .logo {
-    width: 25px;
-    height: auto;
-    position: absolute;
-    top: 20px;
-    left: 20px;
+    width: auto; 
+    height: 25px;
 }
 
 .so-far {
-    position: absolute;
-    top: -10px;
-    left: 300px;
     font-size: 15px;
     font-weight: 400;
 }

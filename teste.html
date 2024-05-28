@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de Atalho</title>
+    <title>Exemplo de Navegação com Seções</title>
     <style>
-        /* Estilos apenas para fins de demonstração */
         body {
             font-family: Arial, sans-serif;
         }
@@ -21,26 +20,28 @@
 </head>
 <body>
 
-<!-- Link que leva à Seção 2 -->
-<a class="link" href="#secao2">Vá para a Seção 2</a>
+<!-- Navegação Interna -->
+<nav>
+    <a class="link" href="#secao1">Vá para a Seção 1</a>
+    <a class="link" href="#secao2">Vá para a Seção 2</a>
+    <a class="link" href="#secao3">Vá para a Seção 3</a>
+</nav>
 
-<!-- Seção 1 -->
-<div id="secao1" class="section" style="background-color: lightblue;">
+<!-- Seções -->
+<section id="secao1" class="section" style="background-color: lightblue;">
     <h2>Seção 1</h2>
-    <p>Esta é a primeira seção.</p>
-</div>
+    <p>Conteúdo da primeira seção.</p>
+</section>
 
-<!-- Seção 2 -->
-<div id="secao2" class="section" style="background-color: lightgreen;">
+<section id="secao2" class="section" style="background-color: lightgreen;">
     <h2>Seção 2</h2>
-    <p>Esta é a segunda seção.</p>
-</div>
+    <p>Conteúdo da segunda seção.</p>
+</section>
 
-<!-- Seção 3 -->
-<div id="secao3" class="section" style="background-color: lightcoral;">
+<section id="secao3" class="section" style="background-color: lightcoral;">
     <h2>Seção 3</h2>
-    <p>Esta é a terceira seção.</p>
-</div>
+    <p>Conteúdo da terceira seção.</p>
+</section>
 
 </body>
 </html>
