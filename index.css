@@ -5,80 +5,104 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
     background-color: #ffffff;
+    margin: 0;
+    padding: 0;
 }
 
 header{
-    padding: 0% 0%;
+    padding: 25px 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav {
-    padding: 10px 3%;
+    width: 100%;
 }
 
 ul {
-    padding: 50px 8%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
-
-.topo-esquerda{
+.topo-esquerda,
+.topo-direita {
     display: flex;
-    padding: 10px 70% 10 10;
     align-items: center;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+}
+
+.topo-esquerda {
+    justify-content: flex-start;
+}
+
+.topo-direita {
+    justify-content: flex-end;
 }
 
 .logo {
-    width: auto; 
+    width: auto;
     height: 25px;
+    margin-right: 250px; /* Alterar distancia aqui */
 }
 
 .so-far {
     font-size: 15px;
     font-weight: 400;
+    margin: 0;
 }
 
-
-.contact {
-    position: absolute;
-    top: -10px;
-    right: 20px;
+.contact,
+.know-me {
     font-size: 15px;
     font-weight: 400;
+    margin: 0;
+}
+
+.contact {
+    margin-right: 250px; /* Alterar distancia aqui */
 }
 
 .know-me {
+    margin-left: 0px;
+}
+
+.oi {
+    font-size: 300px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    padding-left: 20%;
+}
+
+.extras {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: absolute;
-    top: -10px;
-    right: 300px;
-    font-size: 15px;
-    font-weight: 400;
+    bottom: 20px; /* Ajuste a distância do fundo conforme necessário */
+    width: 100%;
+    padding-left: 2%;
 }
 
 .projects {
-    position: absolute;
-    top: 835px;
-    left: 20px;
+    margin: 0; /* Ajuste a distância horizontal conforme necessário */
     font-size: 15px;
     font-weight: 400;
 }
 
 .instagram {
-    position: absolute;
-    top: 835px;
-    right: 20px;
+    margin: 0px; /* Ajuste a distância horizontal conforme necessário */
     font-size: 15px;
     font-weight: 400;
-}
-
-.oi {
-    font-size: 370;
-    font-weight: bold;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-left: 250px; 
-    margin-top: 370px;
 }
 
 h2 {

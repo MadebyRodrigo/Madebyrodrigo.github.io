@@ -1,0 +1,65 @@
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.topo-esquerda,
+.topo-direita {
+    display: flex;
+    align-items: center;
+}
+
+.topo-esquerda {
+    justify-content: flex-start;
+}
+
+.topo-direita {
+    justify-content: flex-end;
+}
+
+.logo {
+    width: auto; 
+    height: 25px;
+    margin-right: 10px;
+}
+
+.so-far,
+.contact,
+.know-me {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 10px;
+}
+
+.contact {
+    margin-right: 10px;
+}
+
+.know-me {
+    margin-left: 10px;
+}
