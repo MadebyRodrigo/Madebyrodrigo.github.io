@@ -46,27 +46,25 @@ ul {
 
 .logo {
     width: auto;
-    height: 25px;
+    height: 2.5rem;
     margin-right: 250px; /* Alterar distancia aqui */
 }
 
 .so-far {
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
     margin: 0;
 }
 
 .contact,
 .know-me {
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
     margin: 0;
 }
 
 .contact {
-    font-size: 15px;
-    font-weight: 400;
-    margin-right: 250px;
+    margin-right: 250px; /* Alterar distancia aqui */
     cursor: pointer;
     display: flex;
     align-items: center;
