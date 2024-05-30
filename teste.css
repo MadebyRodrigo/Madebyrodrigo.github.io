@@ -1,65 +1,51 @@
-body {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    padding: 10px 3%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f8f8f8;
-}
-
-nav {
-    width: 100%;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.topo-esquerda,
-.topo-direita {
-    display: flex;
-    align-items: center;
-}
-
-.topo-esquerda {
-    justify-content: flex-start;
-}
-
-.topo-direita {
-    justify-content: flex-end;
-}
-
-.logo {
-    width: auto; 
-    height: 25px;
-    margin-right: 10px;
-}
-
-.so-far,
-.contact,
-.know-me {
-    font-size: 15px;
-    font-weight: 400;
-    margin: 0 10px;
-}
-
-.contact {
-    margin-right: 10px;
-}
-
-.know-me {
-    margin-left: 10px;
-}
+* {
+    margin: 0px;
+    padding: 0px;
+    
+    outline: 1px dashed blueviolet;
+    outline-offset: -1px;
+  }
+  
+  article 
+  {
+    width: 100vw;
+    height: 100vh;
+  
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+  }
+  
+  article section 
+  {
+    width:  100%;
+    height: 100vh;
+  
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+  
+  #trabalho_1, #trabalho_2 
+  {
+    position: relative;
+  }
+  
+  #rest_escondido_1, #rest_escondido_2 
+  {
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    width: 30%;
+    height: 90%;
+    
+    overflow-y: scroll;
+    visibility: hidden;
+  }
+  
+  .btn_esconde 
+  {
+    text-align: right;
+  }
