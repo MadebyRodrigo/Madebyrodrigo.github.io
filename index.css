@@ -166,30 +166,38 @@ h4 {
     margin-left: 35%;
 }
 
-.breathing{
-    width: 600px;
-    height: auto;
-    margin-left: 350px; 
-    margin-top: 200px;
-}
-
-.Relogio{
-    width: 600px;
-    height: auto;
-    margin-left: 100px; 
-  
-}
-
-.so-many-tools{
-    width: 600px;
-    height: auto;
-    margin-left: 200px; 
-    margin-top: 300px;
+main {
+    margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Alinhamento no topo da página */
+  height: 100vh;
+  box-sizing: border-box;
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+  display: flex;
+  gap: 20px; /* Espaço entre as colunas */
+  padding: 10px; /* Margem entre as colunas e as bordas da página */
+  width: 95%;
+  box-sizing: border-box;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espaço entre os projetos */
+  flex: 1;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2, h3, h4, h5, h6 {
