@@ -138,13 +138,13 @@ h4 {
     align-items: center;
     justify-content: center;
     text-align: right;
-    margin-right: 30%;
+    margin-right: 25%;
 }
 
 .curriculum {
     position: relative;
     width: 100%;
-    height: 5vw; /* Distancia a que começam os projetos */
+    height: 15vw; /* Distancia a que começam os projetos */
 }
 
 .codigo {
@@ -170,7 +170,6 @@ main {
     margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
   display: flex;
   justify-content: center;
   align-items: flex-start; /* Alinhamento no topo da página */
@@ -181,7 +180,7 @@ main {
 .container {
   display: flex;
   gap: 20px; /* Espaço entre as colunas */
-  padding: 10px; /* Margem entre as colunas e as bordas da página */
+  padding: 70px; /* espaço entre trabalhos e margens da pagina */
   width: 95%;
   box-sizing: border-box;
 }
@@ -202,9 +201,5 @@ main {
 
 h1, h2, h3, h4, h5, h6 {
     color: #0900ae;
-}
-
-.linha {
-    border-color: #0900ae;
 }
 
