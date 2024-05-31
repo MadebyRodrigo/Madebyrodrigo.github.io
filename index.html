@@ -1,10 +1,11 @@
-<link rel="stylesheet" href="index.css">
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Made By Rodrigo</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="popup.css">
 </head>
 <body>
     <header>
@@ -21,49 +22,61 @@
             </ul>
         </nav>
     </header>
-        <div class="oi">
-            <h1>oi.</h1>
-        </div>
-        <div class="extras">
-            <h6 class="Projects">8+ Projects</h6>
-            <h6 class="instagram" id="instagram">@madebyrodrigo</h6>
-        </div>
+    <div class="oi">
+        <h1>oi.</h1>
+    </div>
+    <div class="extras">
+        <h6 class="projects">8+ Projects</h6>
+        <h6 class="socials" id="socials">socials</h6>
+    </div>
+    <div id="linkedin2" class="linkedin2" style="display: none;"><h6 class="linkedin" id="linkedin" style="display: none;">linkedin</h6></div>
 
-<section class="about" id="bio">
-    <div class="descricao">
-        <p><h2>I’m a 22y photographer, <br>graphic and
-        multimedia designer</h2><h3><br>based in<br></h3> 
-        <h4>Benedita, ‎ <b>Portugal.</b></p></h4>
-    </div>
-    <div class="curriculum">
-        <p><h6 class="textocodigo">check out my <br><b>Curriculum Vitae</b></h6></p>
-        <img src="Elements/Curriculum-Vitae-(1).png" alt="CV" class="codigo" id="codigo">
-    </div>
-</section>
-<main id="destino">
-    <div class="container">
-    <div class="column">
-        <div class="project"><img src="Projetos/1/1.png" alt="Projeto 1"></div>
-        <div class="project"><img src="Projetos/2/1.gif" alt="Projeto 2"></div>
-        <div class="project"><img src="Projetos/3/CARTAZ.png" alt="Projeto 3"></div>
-    </div>
-    <div class="column">
-        <div class="project"><img src="Projetos/8/Thumb.png" alt="Projeto 4"></div>
-        <div class="project"><img src="Projetos/8/Thumb.png" alt="Projeto 5"></div>
-        <div class="project"><img src="Projetos/2/1.gif" alt="Projeto 6"></div>
-    </div>
-    <div class="column">
-        <div class="project"><img src="Projetos/7/relogio.png" alt="Projeto 7"></div>
-        <div class="project"><img src="imagem8.jpg" alt="Projeto 8"></div>
-        <div class="project"><img src="imagem9.jpg" alt="Projeto 9"></div>
-    </div>
-</div>
-</main>
-<footer>
-    <p><h6><i>thanks.</p></h1></i>
-</footer>
-<script src="email.js"></script>
-<script src="copied-instagram.js"></script>
-<script src="curriculum.js"></script>
+    <section class="about" id="bio">
+        <div class="descricao">
+            <h2>I’m a 22y photographer, <br>graphic and multimedia designer</h2>
+            <h3><br>based in<br></h3> 
+            <h4>Benedita, ‎ <b>Portugal.</b></h4>
+        </div>
+        <div class="curriculum">
+            <h6 class="textocodigo">check out my <br><b>Curriculum Vitae</b></h6>
+            <img src="Elements/Curriculum-Vitae-(1).png" alt="CV" class="codigo" id="codigo">
+        </div>
+    </section>
+
+    <main id="destino">
+        <div class="container">
+            <div class="column">
+                <div class="project"><img src="Projetos/SoManyTools/2.png" alt="Projeto 1" id="popup-trigger"></div>
+                <div class="project"><img src="Projetos/Adidas/Untitled-1.png" alt="Projeto 2"></div>
+                <div class="project"><img src="Projetos/Clock/animacao2.gif" alt="Projeto 3"></div>
+            </div>
+            <div class="column">
+                <div class="project"><img src="Projetos/Logo/1.png" alt="Projeto 4"></div>
+                <div class="project"><img src="Projetos/Breathing/Breathing.png" alt="Projeto 5"></div>
+                <div class="project"><img src="Projetos/Cancer Collection/OIH6ZL1.png" alt="Projeto 6"></div>
+            </div>
+            <div class="column">
+                <div class="project"><img src="Projetos/Media Chaos/cartaz.png" alt="Projeto 7"></div>
+                <div class="project"><img src="Projetos/Rolling Loud animation/Comp1.gif" alt="Projeto 8"></div>
+                <div class="project"><img src="Projetos/Zermatt/1@2x@2x.jpg" alt="Projeto 9"></div>
+            </div>
+        </div>
+        <div class="popup" id="popup">
+            <div class="popup-content">
+              <span class="close-btn" id="close-btn">&times;</span>
+              <h2>Conteúdo do Popup</h2>
+              <p>Aqui está o seu conteúdo de exemplo...</p>
+              <img src="conteudo_imagem.jpg" alt="Conteúdo Imagem">
+            </div>
+          </div>
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="email.js"></script>
+    <script src="socials.js"></script>
+    <script src="curriculum.js"></script>
+    <script src="gif.js"></script>
 </body>
 </html>

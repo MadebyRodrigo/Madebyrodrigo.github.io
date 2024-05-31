@@ -1,9 +1,19 @@
-function mostra (id_div) 
-{
-  document.getElementById(id_div).style.visibility = "visible";
-}
+document.addEventListener("DOMContentLoaded", function() {
+  var popupTrigger = document.getElementById('popup-trigger');
+  var popup = document.getElementById('popup');
+  var closeBtn = document.getElementById('close-btn');
 
-function esconde (id_div) 
-{
-  document.getElementById(id_div).style.visibility = "hidden";
-}
+  popupTrigger.addEventListener('click', function() {
+    popup.style.display = 'block';
+  });
+
+  closeBtn.addEventListener('click', function() {
+    popup.style.display = 'none';
+  });
+
+  window.addEventListener('click', function(event) {
+    if (event.target == popup) {
+      popup.style.display = 'none';
+    }
+  });
+});
