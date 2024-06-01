@@ -45,3 +45,27 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  var popupTrigger3 = document.getElementById('popup-trigger3');
+  var popup3 = document.getElementById('popup3');
+  var closeBtn3 = document.getElementById('close-btn3');
+
+  // Abre o popup ao clicar na imagem
+  popupTrigger3.addEventListener('click', function() {
+    popup3.style.display = 'block';
+  });
+
+  // Fecha o popup ao clicar no botão de fechar
+  closeBtn3.addEventListener('click', function() {
+    popup3.style.display = 'none';
+  });
+
+  // Fecha o popup ao clicar fora do conteúdo do popup
+  window.addEventListener('click', function(event) {
+    if (event.target == popup3) {
+      popup3.style.display = 'none';
+    }
+  });
+});
+

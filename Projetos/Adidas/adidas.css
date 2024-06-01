@@ -6,7 +6,6 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
-  z-index: 9999;
   overflow: auto;
 }
 
@@ -36,12 +35,13 @@
 
 .tituloadidas {
   position: fixed;
-  text-align: left;
-  font-size: 4vw; /* Tamanho menor do título */
-  top: 4vw;
-  left: 42vw;
-  margin-right: 30vw; /* Título mais à direita */
-  font-weight: 900;
+    text-align: right;
+    font-size: 4vw;
+    top: 3vw;
+    left: 58vw;
+    margin-right: 23vw;
+    font-weight: 900;
+    z-index: 1;
 }
 
 .bodyadidas {
@@ -56,33 +56,36 @@
 }
 
 .descricaoadidas {
-  flex: 0.5;
-  font-weight: 300;
-  text-align:justify;
-  font-size: 0.7vw; /* Tamanho menor do texto */
-  margin-left: 21vw;
-  margin-right: 8vw; /* Ajuste a margem conforme necessário */
-  margin-top: 16vw;
-  color: #0900ae;
+  position: absolute;
+    flex: 0.5;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 0.7vw;
+    margin-left: 21vw;
+    margin-right: 56vw;
+    margin-top: 63vw;
+    color: #0900ae;
 }
 
 .videosadidas {
-  margin-top: 5%; /* Espaço acima dos vídeos */
+  margin-top: 0%; /* Espaço acima dos vídeos */
+  z-index: 2;
 }
 
 .videosadidas video {
-  width: 23vw; /*tamanho video*/
-  margin-top: 5vw;
-  margin-left: 8vw;
+  width: 50%; /*tamanho video*/
+  margin-top: 0vw;
+  margin-left: 50%;
+  z-index: 2;
 }
 
 .dataadidas {
   position: fixed;
-  bottom: 17%;
-  right: 18%;
+  bottom: 89%;
+  left: 15%;
   font-size: 14px;
   color: #0900ae;
-  z-index: 10000;
+  z-index: 2;
   font-weight: 200;
 }
 
