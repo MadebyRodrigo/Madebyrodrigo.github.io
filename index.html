@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Made By Rodrigo</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="Projetos/SoManyTools/somany.css">
+    <link rel="stylesheet" href="Projetos/Adidas/adidas.css">
 </head>
 <body>
     <header>
@@ -46,8 +47,8 @@
     <main id="destino">
         <div class="container">
             <div class="column">
-                <div class="project"><img src="Projetos/SoManyTools/2.png" alt="Projeto 1" id="popup-trigger"></div>
-                <div class="project"><img src="Projetos/Adidas/Untitled-1.png" alt="Projeto 2"></div>
+                <div class="project"><img src="Projetos/SoManyTools/2.png" alt="Projeto 1" id="popup-trigger1" style="cursor: pointer;"></div>
+                <div class="project"><img src="Projetos/Adidas/Untitled-1.png" alt="Projeto 2" id="popup-trigger2" style="cursor: pointer;"></div>
                 <div class="project"><img src="Projetos/Clock/animacao2.gif" alt="Projeto 3"></div>
             </div>
             <div class="column">
@@ -61,12 +62,53 @@
                 <div class="project"><img src="Projetos/Zermatt/1@2x@2x.jpg" alt="Projeto 9"></div>
             </div>
         </div>
-        <div class="popup" id="popup">
-            <div class="popup-content">
-              <span class="close-btn" id="close-btn">&times;</span>
-              <h2>Conteúdo do Popup</h2>
-              <p>Aqui está o seu conteúdo de exemplo...</p>
-              <img src="conteudo_imagem.jpg" alt="Conteúdo Imagem">
+        
+        <!-- Pop Up So Many Tools So Little Time -->
+        
+        <div class="popupsomany" id="popup1">
+            <div class="conteudosomany">
+              <span class="close-btn1" id="close-btn1">&times;</span>
+              <h2 class="titulosomany">so many tools<br>so little time.</h2>
+              <div class="bodysomany">
+                <img src="Projetos/SoManyTools/codigosomany.png" alt="Conteúdo Imagem 1" class="codigosomany">
+                <div class="imagenssomany">
+                  <img src="Projetos/SoManyTools/1.png" alt="Conteúdo Imagem 1" style="width: 100%;">
+                  <div class="imagem2somany"><img src="Projetos/SoManyTools/2.png" alt="Conteúdo Imagem 2" style="width: 100%;"></div>
+
+                </div>
+                <div class="descricaosomany">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tempus quam pellentesque nec. Eget est lorem ipsum dolor. At lectus urna duis convallis. Viverra orci sagittis eu volutpat odio. Amet aliquam id diam maecenas ultricies mi. Tempor orci eu lobortis elementum. A diam maecenas sed enim ut sem viverra. Sem nulla pharetra diam sit amet nisl suscipit adipiscing. Lectus magna fringilla urna porttitor rhoncus dolor purus. At in tellus integer feugiat scelerisque varius morbi. Risus ultricies tristique nulla aliquet enim tortor at. Non tellus orci ac auctor augue mauris augue. Mauris sit amet massa vitae tortor condimentum lacinia quis. Eget egestas purus viverra accumsan in nisl nisi scelerisque. Volutpat commodo sed egestas egestas fringilla phasellus.</p>
+                </div>
+              </div>
+              <div class="videossomany">
+                <video controls>
+                  <source src="Projetos/SoManyTools/Vmake-1707874896036.mp4" type="video/mp4">
+                </video>
+                <div class="datasomany">march 2023</div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Pop Up Adidas Video Mapping -->
+
+          <div class="popupadidas" id="popup2">
+            <div class="conteudoadidas">
+              <span class="close-btn2" id="close-btn2">&times;</span>
+              <h2 class="tituloadidas">Adidas Video Mapping Concept</h2>
+              <div class="bodyadidas">
+                <div class="imagensadidas">
+                  <img src="Projetos/Adidas/Untitled-1.png" alt="Conteúdo Imagem 1" style="width: 100%;">
+                </div>
+                <div class="descricaoadidas">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tempus quam pellentesque nec. Eget est lorem ipsum dolor. At lectus urna duis convallis. Viverra orci sagittis eu volutpat odio. Amet aliquam id diam maecenas ultricies mi. Tempor orci eu lobortis elementum. A diam maecenas sed enim ut sem viverra. Sem nulla pharetra diam sit amet nisl suscipit adipiscing. Lectus magna fringilla urna porttitor rhoncus dolor purus. At in tellus integer feugiat scelerisque varius morbi. Risus ultricies tristique nulla aliquet enim tortor at. Non tellus orci ac auctor augue mauris augue. Mauris sit amet massa vitae tortor condimentum lacinia quis. Eget egestas purus viverra accumsan in nisl nisi scelerisque. Volutpat commodo sed egestas egestas fringilla phasellus.</p>
+                </div>
+              </div>
+              <div class="videosadidas">
+                <video controls>
+                  <source src="Projetos/Adidas/com sharp.mp4" type="video/mp4">
+                </video>
+                <div class="dataadidas">march 2023</div>
+              </div>
             </div>
           </div>
     </main>
@@ -74,9 +116,9 @@
     <footer>
     </footer>
 
-    <script src="email.js"></script>
-    <script src="socials.js"></script>
-    <script src="curriculum.js"></script>
-    <script src="gif.js"></script>
+    <script src="JavaScript/curriculum.js"></script>
+    <script src="JavaScript/email.js"></script>
+    <script src="JavaScript/popup.js"></script>
+    <script src="JavaScript/socials.js"></script>
 </body>
 </html>
