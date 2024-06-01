@@ -122,24 +122,31 @@ ul {
     cursor: pointer;
 }
 
+.no-underline {
+    text-decoration: none;
+    color: inherit; /* Mantém a cor do texto */
+}
+
+.linkedin2 {
+    position: absolute;
+    bottom: 45px;
+    right: 57px;
+    align-items: center;
+    height: 3%;
+    width: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
+    isolation: isolate;
+    z-index: 10;
+}
+
 .linkedin {
     font-size: 1rem;
     font-weight: 400;
     text-align: end;
     isolation: isolate;
-}
-
-.linkedin2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    position: relative;
-    bottom: 200px;
-    height: 10%;
-    width: 96%;
-    padding-left: 2%;
-    padding-right: 2%;
-    isolation: isolate;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 h2 {
