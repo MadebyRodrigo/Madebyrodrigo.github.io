@@ -1,71 +1,29 @@
-
-// so many tools so little time
 document.addEventListener("DOMContentLoaded", function() {
-  var popupTrigger1 = document.getElementById('popup-trigger1');
-  var popup1 = document.getElementById('popup1');
-  var closeBtn1 = document.getElementById('close-btn1');
+  function setupPopup(triggerId, popupId, closeBtnId) {
+    var popupTrigger = document.getElementById(triggerId);
+    var popup = document.getElementById(popupId);
+    var closeBtn = document.getElementById(closeBtnId);
 
+    popupTrigger.addEventListener('click', function() {
+      popup.style.display = 'block';
+    });
 
-  popupTrigger1.addEventListener('click', function() {
-    popup1.style.display = 'block';
-  });
+    closeBtn.addEventListener('click', function() {
+      popup.style.display = 'none';
+    });
 
-  closeBtn1.addEventListener('click', function() {
-    popup1.style.display = 'none';
-  });
+    window.addEventListener('click', function(event) {
+      if (event.target == popup) {
+        popup.style.display = 'none';
+      }
+    });
+  }
 
-
-  window.addEventListener('click', function(event) {
-    if (event.target == popup1) {
-      popup1.style.display = 'none';
-    }
-  });
-});
-
-// adidas
-document.addEventListener("DOMContentLoaded", function() {
-  var popupTrigger2 = document.getElementById('popup-trigger2');
-  var popup2 = document.getElementById('popup2');
-  var closeBtn2 = document.getElementById('close-btn2');
-
-
-  popupTrigger2.addEventListener('click', function() {
-    popup2.style.display = 'block';
-  });
-
-
-  closeBtn2.addEventListener('click', function() {
-    popup2.style.display = 'none';
-  });
-
-
-  window.addEventListener('click', function(event) {
-    if (event.target == popup2) {
-      popup2.style.display = 'none';
-    }
-  });
-});
-
-// media is just chaos
-document.addEventListener("DOMContentLoaded", function() {
-  var popupTrigger3 = document.getElementById('popup-trigger3');
-  var popup3 = document.getElementById('popup3');
-  var closeBtn3 = document.getElementById('close-btn3');
-
-
-  popupTrigger3.addEventListener('click', function() {
-    popup3.style.display = 'block';
-  });
-
-
-  closeBtn3.addEventListener('click', function() {
-    popup3.style.display = 'none';
-  });
-
-
-  window.addEventListener('click', function(event) {
-    if (event.target == popup3) {
-      popup3.style.display = 'none';
-    }
-  });
+  setupPopup('popup-trigger1', 'popup1', 'close-btn1');
+  setupPopup('popup-trigger2', 'popup2', 'close-btn2');
+  setupPopup('popup-trigger3', 'popup3', 'close-btn3');
+  setupPopup('popup-trigger4', 'popup4', 'close-btn4');
+  setupPopup('popup-trigger5', 'popup5', 'close-btn5');
+  setupPopup('popup-trigger6', 'popup6', 'close-btn6');
+  setupPopup('popup-trigger7', 'popup7', 'close-btn7');
 });
