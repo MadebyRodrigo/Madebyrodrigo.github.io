@@ -26,7 +26,7 @@
   
   .close-btn6 {
     position: absolute;
-    top: 5px; /* Ajusta o 'x' mais para cima */
+    top: 5px;
     right: 10px;
     font-size: 24px;
     font-weight: bold;
@@ -97,3 +97,5 @@
   width: auto;
   height: 8vw;
 }
+
+/* por mexer e optimizar */

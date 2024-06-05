@@ -26,7 +26,7 @@
   
   .close-btn4 {
     position: absolute;
-    top: 5px; /* Ajusta o 'x' mais para cima */
+    top: 5px;
     right: 10px;
     font-size: 24px;
     font-weight: bold;
@@ -37,10 +37,10 @@
   .titulobreathing {
     position: fixed;
     text-align: left;
-    font-size: 4vw; /* Tamanho menor do título */
-    top: 17vw;
+    font-size: 4vw;
+    top: 17vw; /* posicao */
     left: 10vw;
-    margin-right: 30vw; /* Título mais à direita */
+    margin-right: 30vw;
     font-weight: 900;
   }
   
@@ -67,16 +67,6 @@
     margin-top: 27vw;
     color: #0900ae;
   }
-  
-  .videosbreathing {
-    margin-top: 5%; /* Espaço acima dos vídeos */
-  }
-  
-  .videosbreathing video {
-    width: 23vw; /*tamanho video*/
-    margin-top: 5vw;
-    margin-left: 8vw;
-  }
 
   .databreathing {
     position: fixed;
@@ -96,12 +86,4 @@
 .imagem3breathing {
   display: flex;
   margin-top: 25%;
-}
-
-.codigobreathing {
-  position: absolute;
-  right: 19vw;
-  top: 125vw;
-  width: auto;
-  height: 8vw;
 }

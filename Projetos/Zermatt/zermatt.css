@@ -26,7 +26,7 @@
 
 .close-btn7 {
   position: absolute;
-  top: 5px; /* Ajusta o 'x' mais para cima */
+  top: 5px;
   right: 10px;
   font-size: 24px;
   font-weight: bold;
@@ -37,8 +37,8 @@
 .titulozermatt {
   text-align: left;
   position: relative;
-  font-size: 4vw; /* Tamanho menor do título */
-  margin-top: 0px; /* Adicione margem superior para dar espaço ao título */
+  font-size: 4vw; /* tamanho titulo */
+  margin-top: 0px; /* posicao */
   left: -8vw;
   top: 3vw;
   font-weight: 900;
@@ -46,14 +46,14 @@
 }
 
 .bodyzermatt {
-  position: relative; /* Contêiner pai das imagens */
-  margin-top: 30px; /* Adicione margem superior para dar espaço ao corpo */
+  position: relative; /* flexbox */
+  margin-top: 30px;
 }
 
 .imagenszermatt {
-  position: relative; /* Contêiner para imagens posicionadas absolutamente */
+  position: relative;
   width: 88vw;
-  height: 87vw; /* Ajuste conforme necessário para caber todas as imagens */
+  height: 87vw;
 }
 
 .imagem {
@@ -62,7 +62,7 @@
   height: auto;
 }
 
-/* Controle individual das imagens */
+/* posicao individual imagens */
 .imagem1 {
   top: -12vw;
   left: -2vw;

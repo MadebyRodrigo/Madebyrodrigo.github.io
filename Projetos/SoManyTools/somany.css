@@ -26,7 +26,7 @@
   
   .close-btn1 {
     position: absolute;
-    top: 5px; /* Ajusta o 'x' mais para cima */
+    top: 5px;
     right: 10px;
     font-size: 24px;
     font-weight: bold;
@@ -37,10 +37,10 @@
   .titulosomany {
     position: fixed;
     text-align: left;
-    font-size: 4vw; /* Tamanho menor do título */
-    top: 4vw;
+    font-size: 4vw; /* tamanho titulo */
+    top: 4vw;  /* posicao */
     left: 42vw;
-    margin-right: 30vw; /* Título mais à direita */
+    margin-right: 30vw;
     font-weight: 900;
   }
   
@@ -59,15 +59,15 @@
     flex: 0.5;
     font-weight: 300;
     text-align:justify;
-    font-size: 0.7vw; /* Tamanho menor do texto */
+    font-size: 0.7vw; /* Tamanho texto */
     margin-left: 21vw;
-    margin-right: 8vw; /* Ajuste a margem conforme necessário */
+    margin-right: 8vw; /* posicao */
     margin-top: 16vw;
     color: #0900ae;
   }
   
   .videossomany {
-    margin-top: 5%; /* Espaço acima dos vídeos */
+    margin-top: 5%;
   }
   
   .videossomany video {

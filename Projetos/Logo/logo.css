@@ -26,7 +26,7 @@
   
   .close-btn5 {
     position: absolute;
-    top: 5px; /* Ajusta o 'x' mais para cima */
+    top: 5px;
     right: 10px;
     font-size: 24px;
     font-weight: bold;
@@ -64,16 +64,6 @@
     margin-top: -70vw;
    color: #0900ae;
   }
-  
-  .videoslogo {
-    margin-top: 5%; /* Espaço acima dos vídeos */
-  }
-  
-  .videoslogo video {
-    width: 23vw; /*tamanho video*/
-    margin-top: 5vw;
-    margin-left: 8vw;
-  }
 
   .datalogo {
     position: fixed;
@@ -90,12 +80,4 @@
     margin-left: 0;
     margin-top: -4px;
     margin-right: 0;
-}
-
-.codigologo {
-  position: absolute;
-  right: 19vw;
-  top: 125vw;
-  width: auto;
-  height: 8vw;
 }

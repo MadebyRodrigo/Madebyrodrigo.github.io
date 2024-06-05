@@ -52,7 +52,7 @@ ul {
 .logo {
     width: auto;
     height: 2.5rem;
-    margin-right: 250px; /* Alterar distancia aqui */
+    margin-right: 250px; /* posicao logo */
 }
 
 .so-far {
@@ -78,7 +78,7 @@ ul {
 }
 
 .contact {
-    margin-right: 250px; /* Alterar distancia aqui */
+    margin-right: 250px; /* posicao contact */
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -129,7 +129,7 @@ ul {
 
 .no-underline {
     text-decoration: none;
-    color: inherit; /* Mantém a cor do texto */
+    color: inherit; /* cor texto socials */
 }
 
 .linkedin2 {

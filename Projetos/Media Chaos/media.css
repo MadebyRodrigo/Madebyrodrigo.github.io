@@ -25,7 +25,7 @@
   
   .close-btn3 {
     position: absolute;
-    top: 5px; /* Ajusta o 'x' mais para cima */
+    top: 5px;
     right: 10px;
     font-size: 24px;
     font-weight: bold;
@@ -36,10 +36,10 @@
   .titulomedia {
     position: fixed;
     text-align: left;
-    font-size: 4vw; /* Tamanho menor do título */
-    top: 22vw;
+    font-size: 4vw; /* tamanho titulo */
+    top: 22vw; /* posicao */
     left: 42vw;
-    margin-right: 30vw; /* Título mais à direita */
+    margin-right: 30vw;
     font-weight: 900;
   }
   
@@ -59,9 +59,9 @@
     flex: 0.5;
     font-weight: 300;
     text-align:justify;
-    font-size: 0.7vw; /* Tamanho menor do texto */
+    font-size: 0.7vw; /* tamanho texto */
     margin-left: 21vw;
-    margin-right: 8vw; /* Ajuste a margem conforme necessário */
+    margin-right: 8vw; /* posicao */
     margin-top: 3vw;
     color: #0900ae;
   }

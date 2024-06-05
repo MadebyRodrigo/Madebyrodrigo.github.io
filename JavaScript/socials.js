@@ -8,17 +8,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
     clickableWord.addEventListener('click', function(event) {
         if (!clicked) {
-            event.preventDefault(); // Impede a navegação no primeiro clique
-            this.textContent = '@madebyrodrigo'; // Substitui a palavra
-            extraWord.style.display = 'block'; // Exibe a nova palavra acima
-            extraWord2.style.display = 'flex'; // Exibe a nova palavra acima
+            event.preventDefault(); // gambiarra para nao abrir insta no primeiro clique
+            this.textContent = 'instagram'; // mudar a palavra para insta
+            extraWord.style.display = 'block'; // adicionar linkedin
+            extraWord2.style.display = 'flex'; 
             clicked = true;
         }
     });
 
     socialsLink.addEventListener('click', function(event) {
         if (!clicked) {
-            event.preventDefault(); // Impede a navegação no primeiro clique
+            event.preventDefault(); // gambiarra
         }
     });
 });
