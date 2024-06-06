@@ -15,11 +15,7 @@ body {
 .about-me-box {
 
   padding: 20px;
-
-
-
   cursor: pointer;
-  transition: all 0.3s ease;
   width: 200px;
   max-width: 80%;
   height: 50px;
