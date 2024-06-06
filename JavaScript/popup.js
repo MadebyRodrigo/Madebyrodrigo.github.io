@@ -26,4 +26,6 @@ document.addEventListener("DOMContentLoaded", function() {
   setupPopup('popup-trigger5', 'popup5', 'close-btn5');
   setupPopup('popup-trigger6', 'popup6', 'close-btn6');
   setupPopup('popup-trigger7', 'popup7', 'close-btn7');
+  setupPopup('popup-trigger8', 'popup8', 'close-btn8');
+  setupPopup('popup-trigger9', 'popup9', 'close-btn9');
 });
