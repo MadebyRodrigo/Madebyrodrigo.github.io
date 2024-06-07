@@ -53,6 +53,7 @@
 .imagensadidas {
   flex: 1;
   margin-right: 0%;
+  z-index: 3;
 }
 
 .descricaoadidas {
@@ -85,7 +86,7 @@
   left: 15%;
   font-size: 14px;
   color: #0900ae;
-  z-index: 2;
+  z-index: 1;
   font-weight: 200;
 }
 

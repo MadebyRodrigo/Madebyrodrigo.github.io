@@ -92,15 +92,13 @@ ul {
 }
 
 .oi {
-    font-size: 10vw;
-    font-weight: bold;
-    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    text-align: center;
+    height: 101vh;
+    top: -3vw;
+    left: 22vw;
     position: relative;
-    padding-left: 20%;
+    z-index: -1;
 }
 
 .extras {

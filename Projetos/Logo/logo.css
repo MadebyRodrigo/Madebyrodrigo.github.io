@@ -16,7 +16,7 @@
     margin: 3% auto;
     padding: 25px;
     border-radius: 3px;
-    max-width: 87vw;
+    max-width: 86vw;
     max-height: 100%;
     overflow-y: auto;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -59,16 +59,16 @@
     font-weight: 300;
     text-align: justify;
     font-size: 0.7vw;
-    margin-left: 52vw;
-    margin-right: 26vw;
-    margin-top: -70vw;
+    margin-left: 50vw;
+    margin-right: 24vw;
+    margin-top: -58vw;
    color: #0900ae;
   }
 
   .datalogo {
     position: fixed;
     bottom: 17%;
-    right: 36%;
+    right: 21%;
     font-size: 14px;
     color: #0900ae;
     z-index: 10000;
