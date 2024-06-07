@@ -87,6 +87,10 @@ ul {
     width: 200px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .know-me {
     margin-left: 0px;
 }
