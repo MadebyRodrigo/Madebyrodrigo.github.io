@@ -173,6 +173,7 @@ a {
 .about {
     position: relative;
     margin-top: 10px;
+    display: block;  /* tinha isto */
 }
 
 h2 {
