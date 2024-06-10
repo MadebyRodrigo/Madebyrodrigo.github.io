@@ -285,7 +285,7 @@ main {
     display: flex;
     justify-content: space-between;
     gap: 4vw;
-    padding: 7vw 7vw 7vw 7vw;
+    padding: 5vw 7vw 7vw 7vw;
     width: 95%;
     box-sizing: border-box;
     align-items: flex-end;
