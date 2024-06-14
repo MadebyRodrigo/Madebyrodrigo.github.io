@@ -1,32 +1,21 @@
-document.addEventListener("DOMContentLoaded", function() {
-  function setupPopup(triggerId, popupId, closeBtnId) {
-    var popupTrigger = document.getElementById(triggerId);
-    var popup = document.getElementById(popupId);
-    var closeBtn = document.getElementById(closeBtnId);
+document.addEventListener('DOMContentLoaded', function () {
+  const menuIcon = document.getElementById('menu-icon');
+  const mobileMenu = document.getElementById('mobile-menu');
 
-    popupTrigger.addEventListener('click', function() {
-      popup.style.display = 'flex'; // Alterado para 'flex' para centralizar
-    });
+  menuIcon.addEventListener('click', function () {
+    mobileMenu.classList.toggle('active');
 
-    closeBtn.addEventListener('click', function() {
-      popup.style.display = 'none';
-    });
-
-    window.addEventListener('click', function(event) {
-      if (event.target == popup) {
-        popup.style.display = 'none';
+    if (mobileMenu.classList.contains('active')) {
+      const projectsLink = document.createElement('a');
+      projectsLink.setAttribute('href', '#projects');
+      projectsLink.classList.add('projects');
+      projectsLink.innerHTML = '<h6 class="projects">projects</h6>';
+      mobileMenu.insertBefore(projectsLink, mobileMenu.firstChild); // Adiciona projects no início do menu móvel
+    } else {
+      const projectsMobile = mobileMenu.querySelector('.projects');
+      if (projectsMobile) {
+        projectsMobile.remove(); // Remove projects se o menu não estiver ativo
       }
-    });
-  }
-
-  setupPopup('popup-trigger1', 'popup1', 'close-btn1');
-  setupPopup('popup-trigger2', 'popup2', 'close-btn2');
-  setupPopup('popup-trigger3', 'popup3', 'close-btn3');
-  setupPopup('popup-trigger4', 'popup4', 'close-btn4');
-  setupPopup('popup-trigger5', 'popup5', 'close-btn5');
-  setupPopup('popup-trigger6', 'popup6', 'close-btn6');
-  setupPopup('popup-trigger7', 'popup7', 'close-btn7');
-  
-  // Setup para o popup da bio
-  setupPopup('popup-trigger-bio', 'popup-bio', 'close-btn-bio');
+    }
+  });
 });

@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 html {
-        scroll-behavior: smooth;
-    
+    scroll-behavior: smooth;
+
 }
 
 body {
@@ -52,29 +52,27 @@ ul {
 .logo {
     width: auto;
     height: 2.5rem;
-    margin-right: 250px; /* posicao logo */
+    margin-right: 0%; /* posicao logo */
+    margin-top: 0%;
+    position: fixed;
+    z-index: 9999;
 }
 
 .so-far {
     font-size: 1rem;
     font-weight: 400;
-    margin: 0;
+    margin-left: 250px;
     cursor: pointer;
-}
-
-.so-far2 {
     text-decoration: none;
 }
 
-.know-me2 {
-    text-decoration: none;
-}
 
 .contact,
 .know-me {
     font-size: 1rem;
     font-weight: 400;
     margin: 0;
+    text-decoration: none;
 }
 
 .contact {

@@ -1,34 +1,162 @@
-body, html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.animation-container {
-  width: 50vw; /* Ajuste conforme necessário */
-  height: auto;
-  max-width: 100%;
-  max-height: 50vh; /* Ajuste conforme necessário */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #f5f5f5;
   margin: 0;
   padding: 0;
 }
 
-.animation {
-  width: 100%;
-  height: auto;
+header {
+  padding: 25px 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* Exemplo de estilo para outros elementos da página */
-.content {
-  width: 80%;
-  margin-top: 20px;
+nav {
+  width: 100%;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.topo-esquerda,
+.topo-direita {
+  display: flex;
+  align-items: center;
+}
+
+.topo-esquerda {
+  justify-content: flex-start;
+}
+
+.topo-direita {
+  justify-content: flex-end;
+}
+
+.logo {
+  width: auto;
+  height: 2.5rem;
+  margin-right: 0%; /* posicao logo */
+  margin-top: 0%;
+}
+
+.so-far {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 250px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black; /* Adicione a cor de texto desejada */
+}
+
+
+.contact,
+.know-me,
+.projects {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+  text-decoration: none;
+  color: #0900ae; /* Alterado para a cor #0900ae */
+  display: block;
+  padding: 15px;
+  text-align: right;
+}
+
+.contact {
+  margin-right: 250px; /* posicao contact */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  width: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.know-me {
+  margin-left: 0px;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #0900ae; /* Alterado para a cor #0900ae */
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  background-color: #f5f5f5;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.mobile-menu a {
+  color: #0900ae; /* Alterado para a cor #0900ae */
+  padding: 15px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.mobile-menu .projects {
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #0900ae; /* Alterado para a cor #0900ae */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.mobile-menu a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 1144px) {
+  .topo-direita {
+    display: none;
+  }
+
+  .so-far {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .mobile-menu.active {
+    display: flex;
+  }
+
+  .mobile-menu .contact {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .mobile-menu .know-me {
+    text-align: center;
+  }
 }

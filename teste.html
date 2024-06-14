@@ -1,22 +1,34 @@
 <link rel="stylesheet" href="teste.css">
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Popup Digital</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Header</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="animation-container">
-        <div class="animation">
-          <!-- Insira sua animação aqui -->
-        </div>
-      </div>
-      <div class="content">
-        <!-- Outros conteúdos da página -->
-        <p>Conteúdo adicional abaixo da animação.</p>
-      </div>
-<script src="teste.js"></script>
+  <header>
+      <nav>
+          <ul>
+              <li class="topo-esquerda">
+                  <img class="logo" src="Elements/logo.png" alt="logo">
+                  <a href="#destino" class="so-far"><h6 class="so-far" style="color: #0900ae;">so far</h6></a>
+              </li>
+              <li class="topo-direita">
+                  <a href="mailto:rodrigo.catarino@hotmail.com"><h6 class="contact" style="color: #0900ae;">contact me!</h6></a>
+                  <a href="#bio" class="know-me"><h6 class="know-me" style="color: #0900ae;">about me</h6></a>
+              </li>
+              <li class="menu-icon" id="menu-icon">&#9776;</li>
+          </ul>
+          <div class="mobile-menu" id="mobile-menu">
+              <a href="#destino" class="so-far"><h6 class="so-far" style="color: #0900ae;">so far</h6></a>
+              <a href="mailto:rodrigo.catarino@hotmail.com"><h6 class="contact" style="color: #0900ae;">contact me!</h6></a>
+              <a href="#bio" class="know-me"><h6 class="know-me" style="color: #0900ae;">about me</h6></a>
+              <a href="#projects" class="projects" style="color: #0900ae;"><h6 class="projects">projects</h6></a>
+          </div>
+      </nav>
+  </header>
+  <script src="teste.js"></script>
 </body>
 </html>
