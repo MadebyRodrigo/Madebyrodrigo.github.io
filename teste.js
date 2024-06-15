@@ -1,21 +1,39 @@
-document.addEventListener('DOMContentLoaded', function () {
-  const menuIcon = document.getElementById('menu-icon');
-  const mobileMenu = document.getElementById('mobile-menu');
+document.addEventListener('DOMContentLoaded', function() {
+  const clickableWord = document.querySelector('.socials');
+  const extraWord = document.getElementById('linkedin');
+  const extraWord2 = document.getElementById('linkedin2');
+  const extraWord3 = document.getElementById('behance');
+  const extraWord4 = document.getElementById('behance2');
+  const socialsLink = document.getElementById('socials-link');
 
-  menuIcon.addEventListener('click', function () {
-    mobileMenu.classList.toggle('active');
+  let clicked = false;
 
-    if (mobileMenu.classList.contains('active')) {
-      const projectsLink = document.createElement('a');
-      projectsLink.setAttribute('href', '#projects');
-      projectsLink.classList.add('projects');
-      projectsLink.innerHTML = '<h6 class="projects">projects</h6>';
-      mobileMenu.insertBefore(projectsLink, mobileMenu.firstChild); // Adiciona projects no início do menu móvel
-    } else {
-      const projectsMobile = mobileMenu.querySelector('.projects');
-      if (projectsMobile) {
-        projectsMobile.remove(); // Remove projects se o menu não estiver ativo
+  clickableWord.addEventListener('click', function(event) {
+      event.preventDefault(); // prevent the default link behavior
+      if (!clicked) {
+          this.textContent = 'instagram'; // change the text to 'instagram'
+          extraWord.style.display = 'block'; // show LinkedIn
+          extraWord2.style.display = 'flex'; 
+          extraWord3.style.display = 'block'; // show Behance
+          extraWord4.style.display = 'flex'; 
+          clicked = true;
       }
-    }
+  });
+
+  document.addEventListener('click', function(event) {
+      if (clicked && !clickableWord.contains(event.target) && !extraWord2.contains(event.target) && !extraWord4.contains(event.target)) {
+          clickableWord.textContent = 'socials'; // change the text back to 'socials'
+          extraWord.style.display = 'none'; // hide LinkedIn
+          extraWord2.style.display = 'none'; 
+          extraWord3.style.display = 'none'; // hide Behance
+          extraWord4.style.display = 'none'; 
+          clicked = false;
+      }
+  });
+
+  socialsLink.addEventListener('click', function(event) {
+      if (!clicked) {
+          event.preventDefault(); // prevent the default link behavior
+      }
   });
 });

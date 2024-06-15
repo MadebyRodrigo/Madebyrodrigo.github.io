@@ -12,20 +12,20 @@ body {
     background-color: #f5f5f5;
     margin: 0;
     padding: 0;
-}
-
-header {
+  }
+  
+  header {
     padding: 25px 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-nav {
+  }
+  
+  nav {
     width: 100%;
-}
-
-ul {
+  }
+  
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -33,49 +33,49 @@ ul {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-}
-
-.topo-esquerda,
-.topo-direita {
+  }
+  
+  .topo-esquerda,
+  .topo-direita {
     display: flex;
     align-items: center;
-}
-
-.topo-esquerda {
+  }
+  
+  .topo-esquerda {
     justify-content: flex-start;
-}
-
-.topo-direita {
+  }
+  
+  .topo-direita {
     justify-content: flex-end;
-}
-
-.logo {
+  }
+  
+  .logo {
     width: auto;
     height: 2.5rem;
     margin-right: 0%; /* posicao logo */
     margin-top: 0%;
     position: fixed;
     z-index: 9999;
-}
-
-.so-far {
+  }
+  
+  .so-far {
     font-size: 1rem;
     font-weight: 400;
     margin-left: 250px;
     cursor: pointer;
     text-decoration: none;
-}
-
-
-.contact,
-.know-me {
+  }
+  
+  
+  .contact,
+  .know-me {
     font-size: 1rem;
     font-weight: 400;
     margin: 0;
     text-decoration: none;
-}
-
-.contact {
+  }
+  
+  .contact {
     margin-right: 250px; /* posicao contact */
     cursor: pointer;
     display: flex;
@@ -83,15 +83,62 @@ ul {
     justify-content: center;
     text-align: center;
     width: 200px;
-}
-
-a {
+  }
+  
+  .projectsir {
+    margin: 0px;
+  }
+  
+  a {
     text-decoration: none;
-}
-
-.know-me {
+  }
+  
+  .know-me {
     margin-left: 0px;
-}
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #0900ae; /* Alterado para a cor #0900ae */
+  }
+  
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: #f5f5f5;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .mobile-menu a {
+    color: #0900ae; /* Alterado para a cor #0900ae */
+    padding: 15px;
+    text-align: right;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .mobile-menu .projectsir {
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+  
+  
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .mobile-menu a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
 
 .animacao-tudo {
     position: relative;
@@ -173,6 +220,28 @@ a {
 }
 
 .linkedin {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: end;
+    isolation: isolate;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.behance2 {
+    position: absolute;
+    bottom: 86px;
+    right: 65px;
+    align-items: center;
+    height: 4%;
+    width: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
+    isolation: isolate;
+    z-index: 10;
+}
+
+.behance {
     font-size: 1rem;
     font-weight: 400;
     text-align: end;
@@ -322,3 +391,53 @@ h1, h2, h3, h4, h5, h6 {
       color-scheme: light;
     }
   }
+
+  @media (max-width: 1144px) {
+    .topo-direita {
+      display: none;
+    }
+  
+    .so-far {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    .mobile-menu.active {
+      display: flex;
+    }
+  
+    .mobile-menu .contact {
+      margin-right: 0;
+      margin-left: 0;
+    }
+  
+    .mobile-menu .know-me {
+      text-align: center;
+    }
+
+    .animacao-tudo video {
+        width: 90%;
+    }
+
+    .quadrado {
+        position: absolute;
+        margin-top: 77.5%;
+        left: 0%;
+        width: 100%;
+        height: 2vw;
+        background-color: #f5f5f5;
+    }
+    
+    .quadrado2 {
+        position: absolute;
+        margin-top: 0%;
+        left: 96%;
+        width: 2vw;
+        height: 108%;
+        background-color: #f5f5f5;
+    }
+  }
+  
