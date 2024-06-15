@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let clicked = false;
 
     clickableWord.addEventListener('click', function(event) {
-        event.preventDefault(); // prevent the default link behavior
         if (!clicked) {
+            event.preventDefault(); // prevent the default link behavior only if not clicked
             this.textContent = 'instagram'; // change the text to 'instagram'
             extraWord.style.display = 'block'; // show LinkedIn
             extraWord2.style.display = 'flex'; 
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     socialsLink.addEventListener('click', function(event) {
         if (!clicked) {
-            event.preventDefault(); // prevent the default link behavior
+            event.preventDefault(); // prevent the default link behavior only if not clicked
         }
     });
 });
