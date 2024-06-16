@@ -88,14 +88,14 @@
 
   .descricaocc {
     position: relative;
-    left: 20vw;
-    top: -33vw;
+    left: 13vw;
+    top: -29vw;
     font-weight: 300;
     text-align: justify;
     font-size: 0.7vw;
     margin: 0 0px;
     color: #0900ae;
-    max-width: 13vw;
+    max-width: 22vw;
     word-wrap: break-word;
   }
   
