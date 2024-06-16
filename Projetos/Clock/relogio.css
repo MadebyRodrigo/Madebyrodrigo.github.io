@@ -38,16 +38,17 @@
   text-align: left;
   position: relative;
   font-size: 4vw; /* tamanho titulo */
-  margin-top: 0px; /* posicao */
-  left: -8vw;
-  top: 3vw;
+  margin-top: 0vw; /* posicao */
+  margin-left: 44vw;
+  left: 0vw;
+  top: 8vw;
   font-weight: 900;
   z-index: 1;
 }
 
 .bodyrelogio {
   position: relative; /* flexbox */
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .hereclock {
@@ -58,7 +59,7 @@
 .imagensrelogio {
   position: relative;
   width: 88vw;
-  height: 87vw;
+  height: 22vw;
 }
 
 .imagem {
@@ -69,51 +70,21 @@
 
 /* posicao individual imagens */
 .imagemrelogio1 {
-  top: -12vw;
-  left: -2vw;
-  width: 33vw;
-}
-
-.imagemrelogio2 {
-  top: 104vw;
-  left: 55vw;
-  width: 24vw;
+  top: -8vw;
+  left: 8vw;
+  width: 40vw;
 }
 
 .imagemrelogio3 {
-  top: 9vw;
-  left: 49vw;
-  width: 29vw;
-}
-
-.imagemrelogio4 {
-  top: 169vw;
-  left: 64vw;
-  width: 25vw;
-}
-
-.imagemrelogio5 {
-  top: 98vw;
-  left: 13vw;
-  width: 26vw;
-}
-
-.imagemrelogio6 {
-  top: 141vw;
-  left: 27vw;
-  width: 26vw;
-}
-
-.imagemrelogio7 {
-  top: 41vw;
-  left: 23vw;
-  width: 31vw;
+  top: 14vw;
+  left: 45vw;
+  width: 39vw;
 }
 
 .descricaorelogio {
   position: relative;
-  left: 6vw;
-  top: -18vw;
+  left: 16vw;
+  top: -5vw;
   font-weight: 300;
   text-align: justify;
   font-size: 0.7vw;
