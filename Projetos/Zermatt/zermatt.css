@@ -107,14 +107,14 @@
 
 .descricaozermatt {
   position: relative;
-  left: 6vw;
+  left: 4vw;
   top: -18vw;
   font-weight: 300;
   text-align: justify;
   font-size: 0.7vw;
   margin: 0 0px;
   color: #0900ae;
-  max-width: 11vw;
+  max-width: 13vw;
   word-wrap: break-word;
 }
 

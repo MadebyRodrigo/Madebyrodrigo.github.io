@@ -136,8 +136,8 @@ z-index: 9999;
 
 .datarelogio {
   position: fixed;
-  bottom: 45vw;
-  right: 9vw;
+  bottom: 6vw;
+  right: 10vw;
   font-size: 14px;
   color: #0900ae;
   z-index: 10000;
