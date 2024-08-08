@@ -66,14 +66,7 @@
     color: #0900ae;
   }
   
-  .videosrolling {
-    margin-top: 0%; /* Espaço acima dos vídeos */
-  }
-  
-  .videosrolling video {
-    width: 88.5vw; /*tamanho video*/
 
-  }
 
   .datarolling {
     position: fixed;
@@ -87,7 +80,7 @@
 
 .imagem2rolling {
     display: flex;
-
+    margin: -7vw -39vw 0vw 42vw;
 }
 
 .codigorolling {
@@ -97,5 +90,3 @@
   width: auto;
   height: 8vw;
 }
-
-/* por mexer e optimizar */
