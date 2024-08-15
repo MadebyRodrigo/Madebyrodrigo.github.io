@@ -1,13 +1,25 @@
-        /* Estilo para o texto específico para telas menores que 1144px */
-        @media (max-width: 1144px) {
-          #texto-exclusivo {
-              display: block; /* Mostra o texto */
-          }
-      }
+/* Estilo geral do body */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Alinha o conteúdo na parte inferior */
+    text-align: center;
+}
 
-      /* Estilo para telas maiores que 1144px */
-      @media (min-width: 1145px) {
-          #texto-exclusivo {
-              display: none; /* Oculta o texto */
-          }
-      }
+/* Estilo para o texto específico para telas menores que 1144px */
+@media (max-width: 1144px) {
+    #texto-exclusivo {
+        display: block; /* Mostra o texto */
+        font-size: 1.5rem;
+        margin-bottom: 20px; /* Espaço entre o texto e a borda inferior */
+    }
+}
+
+/* Estilo para telas maiores que 1144px */
+@media (min-width: 1145px) {
+    #texto-exclusivo {
+        display: none; /* Oculta o texto */
+    }
+}

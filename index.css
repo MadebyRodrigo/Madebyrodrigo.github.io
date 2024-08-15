@@ -162,9 +162,9 @@ body {
     max-height: 100vh;
 }
 
-.animacao-tudo video {
+.animacao-tudo img {
     display: block;
-    width: 60%;
+    width: 100%;
 }
 
 .quadrado {
@@ -194,6 +194,13 @@ body {
     height: 6%;
     width: 96%;
     padding-left: 2%;
+}
+
+.nota {
+  margin: 0;
+  padding: 0;
+  height: 96vh;
+  text-align: center;
 }
 
 .projects {
@@ -537,5 +544,21 @@ footer {
   }
 
 
+  #texto-exclusivo {
+    position: fixed;
+    bottom: 0px;
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajusta a posição para centralizar corretamente */
+    font-size: 1.3rem;
+    color:#0900ae;
+    padding: 10px 0px;
+    border-radius: 8px;
+    z-index: 1000;
+}
+}
+
+@media (min-width: 1145px) {
+  #texto-exclusivo {
+      display: none; /* Oculta o texto */
   }
-  
+}
