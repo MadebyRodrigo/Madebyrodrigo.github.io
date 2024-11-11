@@ -7,9 +7,9 @@ document.addEventListener("DOMContentLoaded", function() {
         if (!aboutMeBox.classList.contains('expanded')) {
             aboutMeBox.classList.add('expanded');
             aboutMeText.innerHTML = `
-            Rodrigo Couto Catarino, graduated in Graphic and Multimedia Design by the Upper School of Arts and Design - Politécnico de Leiria in 2024, has been pursuing his passion for design since 2017. Constantly seeking knowledge, he believes that learning is never too much and carries this philosophy into all his projects, unafraid to take risks for the sake of evolution.
-            <br><br>Currently, he is focused on the fields of Motion Design, Graphic Design, and Multimedia Design, aiming to bring movement and fluidity to creative compositions while welcoming any challenge presented. Rodrigo masters a variety of software, notably Adobe Photoshop, Adobe Illustrator, and Adobe After Effects.
-            <br><br>Through his projects, he aims not only to create visually appealing compositions but also to bring stories to life, conveying messages through his work. With an innovative spirit, Rodrigo seeks to continue expanding his creative boundaries, always searching for new horizons and drawing inspiration from every new opportunity to evolve and make a difference in the world.
+            Hi! I’m Rodrigo Catarino, a graphic and multimedia designer graduated by the Upper School of Arts and Design - Politécnico de Leiria in 2024.
+            <br><br>I’ve always been passionate about anything art related, and since 2017, I’ve dedicated myself to multimedia design with the goal of growing and reinventing myself with each project. I love bringing fresh, innovative ideas to my projects and I make sure my work always reflects a positive and charismatic style. Currently, I’m focused on Motion Design, Graphic Design, and Multimedia Design, but I’m always open to new challenges of any kind.
+            <br><br>Outside of design, I have a big passion for woodworking and voice acting, both dreams I hope to explore one day. And gaming, I’m a huge tech nerd.
    `; }
     });
   
